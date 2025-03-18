@@ -8,7 +8,10 @@
 //! let x: Option<i32> = Some(async {5}).transpose().await;
 //! # }
 //! ```
-use std::pin::Pin;
+use std::{
+    future::{Future, IntoFuture},
+    pin::Pin,
+};
 
 pub trait TransposeFuture {
     type Output: Future;

@@ -1,6 +1,12 @@
 [package]
 name = "transpose-future"
+description = "Transpose Option<impl Future>"
+homepage = "https://github.com/Aras14HD/abstract-impl"
+repository = "https://github.com/Aras14HD/abstract-impl"
+keywords = ["transpose", "Option", "Result", "Future"]
+categories = ["rust-patterns"]
+license = "MIT"
 version = "0.1.0"
-edition = "2024"
+edition = "2018"
 
 [dependencies]
